@@ -13,6 +13,7 @@ You can download the project and install required packages using following comma
 ```bash
 git clone https://github.com/chuchun8/TSE.git
 cd src
+mkdir ./trained_models
 pip install -r requirements.txt
 ```
 

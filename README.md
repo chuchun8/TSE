@@ -48,7 +48,7 @@ Please contact the co-author regarding more details of files of "Target Classifi
 
 ## Checkpoints
 
-We make trained models publicly available at [here](https://drive.google.com/file/d/1hTfP-dXwUd8qoCGDpPpHV9xnpVy8dLQ8/view?usp=sharing). Please feel free to train models by yourself or directly download well-trained models for evaluation.
+We make trained models publicly available at [here](https://drive.google.com/drive/folders/1jN7n0U2-6A3xMmCLIvPfsZMLM0zzHpuJ?usp=sharing). Please feel free to train models by yourself or directly download well-trained models for evaluation.
 
 ## Contact Info
 

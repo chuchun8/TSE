@@ -1,0 +1,11 @@
+lr:1e-3
+batch_size:128
+total_epochs:30
+sent_len:70
+hidden_size:300
+linear_size:300
+dropout:0.5
+num_labels:3
+num_tar:18
+num_vocab:40203
+aux_eval:False

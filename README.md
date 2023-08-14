@@ -24,7 +24,7 @@ A multi-task framework that uses target prediction as the auxiliary task is prop
 ```
 bash ./train.sh > train.log
 ```
-Results of in-target stance detection (Table 8) is shown in `train.log`. Specifically, in train.sh,
+Results of in-target stance detection (Table 8) are shown in `train.log`. Specifically, in train.sh,
 
 `-m` indicates the model we use to train or evaluate on stance datasets, which includes `bertweet`, `crossnet`, `bice`, `tan`, `bilstm`. Trained models are saved in the `trained_models` folder.
 
@@ -34,7 +34,7 @@ In this work, a two-stage framework is proposed to involve both target identific
 ```
 bash ./eval.sh > eval.log
 ```
-Results of two-stage stance detection (Tables 5-7) is shown in `eval.log`. Some examples of "Target Classification", "Target Generation" and "Zero-Shot" settings are given in `eval.sh`.
+Results of two-stage stance detection (Tables 5-7) are shown in `eval.log`. Some examples of "Target Classification", "Target Generation" and "Zero-Shot" settings are given in `eval.sh`.
 
 ## Data
 
@@ -43,9 +43,9 @@ The folder is organized as follows:
 - `*_target_classification.csv`: output files from "Target Classification" stage;
 - `*_target_generation.csv`: output files from "Target Generation" stage;
 - `*_target_generation_zero_shot.csv`: output files from "Target Generation" stage for zero-shot evaluation;
-- `train/dev/test.csv`: dataset files used to train stance classifiers.
+- `train/dev/test.csv`: dataset files (merged sets of SemEval-2016, AM, COVID-19 and P-Stance) used to train/evaluate stance classifiers.
 
-Please contact the co-author regarding more details of files of "Target Classification" and "Target Generation".
+Please contact the co-author regarding more details of files of "Target Classification" and "Target Generation". `GT Target` and `GT Stance` columns indicate the ground-truth targets and stance labels. `Mapped Target` column indicates the mapped targets after similarity mapping.
 
 ## Checkpoints
 

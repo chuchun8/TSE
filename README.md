@@ -47,7 +47,7 @@ The folder is organized as follows:
 
 The data with 'unrelated' label used for target classification is available at [here](https://drive.google.com/drive/folders/16asK-Ouv6BwXuqUU-J7NwSQS9_k5E4_d).
 
-Please contact the co-author regarding more details of files of "Target Classification" and "Target Generation". `GT Target` and `GT Stance` columns indicate the ground-truth targets and stance labels. `Mapped Target` column indicates the mapped targets after similarity mapping.
+Please contact the co-author regarding more details of files of "Target Classification" (already added) and "Target Generation". `GT Target` and `GT Stance` columns indicate the ground-truth targets and stance labels. `Mapped Target` column indicates the mapped targets after similarity mapping.
 
 ## Checkpoints
 

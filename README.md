@@ -45,6 +45,8 @@ The folder is organized as follows:
 - `*_target_generation_zero_shot.csv`: output files from "Target Generation" stage for zero-shot evaluation;
 - `train/dev/test.csv`: dataset files (merged sets of SemEval-2016, AM, COVID-19 and P-Stance) used to train/evaluate stance classifiers.
 
+The data with 'unrelated' label used for target classification is available at [here](https://drive.google.com/drive/folders/16asK-Ouv6BwXuqUU-J7NwSQS9_k5E4_d).
+
 Please contact the co-author regarding more details of files of "Target Classification" and "Target Generation". `GT Target` and `GT Stance` columns indicate the ground-truth targets and stance labels. `Mapped Target` column indicates the mapped targets after similarity mapping.
 
 ## Checkpoints
